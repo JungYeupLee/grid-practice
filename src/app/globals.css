@@ -1,12 +1,14 @@
 :root {
   --ink: #17201b;
   --muted: #5d6761;
-  --line: #dfe5e1;
-  --soft: #f5f7f5;
+  --line: #e6d9a8;
+  --soft: #fff3c4;
   --accent: #17633c;
   --subtitle: #1d4ed8;
   --danger: #813b38;
   --paper: #fff;
+  /* 페이지 배경. --paper는 입력창에도 쓰이므로 따로 둔다. */
+  --bg: #fffbe6;
   --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
 }
 
@@ -14,7 +16,7 @@
 
 body {
   margin: 0;
-  background: var(--paper);
+  background: var(--bg);
   color: var(--ink);
   font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", "Pretendard",
     "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
