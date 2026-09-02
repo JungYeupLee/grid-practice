@@ -113,6 +113,7 @@ export default async function Tables() {
                 <tr>
                   <th>id</th>
                   <th>name</th>
+                  <th>birth_date</th>
                   <th>created_at</th>
                 </tr>
               </thead>
@@ -121,6 +122,8 @@ export default async function Tables() {
                   <tr key={r.id}>
                     <td>{r.id}</td>
                     <td>{r.name}</td>
+                    {/* date column은 Drizzle이 '1994-03-21' 같은 문자열로 돌려준다. */}
+                    <td>{r.birthDate ?? '—'}</td>
                     <td className="muted">{r.createdAt.toISOString()}</td>
                   </tr>
                 ))}
