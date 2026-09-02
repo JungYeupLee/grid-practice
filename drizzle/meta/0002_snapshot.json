@@ -1,6 +1,6 @@
 {
-  "id": "4a2c6a61-eb2c-43c5-91bb-a5b82df72b8a",
-  "prevId": "2714c173-16ac-48ad-8d74-991cd21e5180",
+  "id": "85734aa7-fa01-46a0-97bc-594c0e48eed2",
+  "prevId": "4a2c6a61-eb2c-43c5-91bb-a5b82df72b8a",
   "version": "7",
   "dialect": "postgresql",
   "tables": {
@@ -63,6 +63,12 @@
           "type": "text",
           "primaryKey": false,
           "notNull": true
+        },
+        "birth_date": {
+          "name": "birth_date",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": false
         },
         "created_at": {
           "name": "created_at",
