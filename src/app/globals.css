@@ -8,7 +8,7 @@
   --danger: #813b38;
   --paper: #fff;
   /* 페이지 배경. --paper는 입력창에도 쓰이므로 따로 둔다. */
-  --bg: #fffbe6;
+  --bg: #d9f2e3;
   --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
 }
 
